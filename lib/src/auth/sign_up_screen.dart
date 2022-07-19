@@ -19,7 +19,18 @@ class SignUpScreen extends StatelessWidget {
             ),
           ),
           // Formulario
-          Container(),
+          Container(
+            padding: const EdgeInsets.symmetric(
+              horizontal: 32,
+              vertical: 40,
+            ),
+            decoration: const BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.vertical(
+                top: Radius.circular(45),
+              ),
+            ),
+          ),
         ],
       ),
     );
